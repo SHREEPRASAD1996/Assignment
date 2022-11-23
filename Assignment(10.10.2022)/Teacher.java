@@ -1,0 +1,20 @@
+package com;
+
+/*In this example, you have a base class Teacher and a 
+sub class ITTeacher. Since class ITTeacher extends the designation
+and college properties and work () method from base class,
+we need not to declare these properties and method in sub class.
+Here we have college Name, designation and work () method 
+which are common to all the teachers so we have 
+declared them in the base class,this way the child classes 
+like Math Teacher, Music Teacher and PhysicsTeacher 
+do not need to write this code and can be used directly 
+from base class.*/
+public class Teacher { // Base class
+
+	// creating method
+	void work(String college, String designation) {
+		System.out.println(college + " " + designation);
+	}
+
+}
