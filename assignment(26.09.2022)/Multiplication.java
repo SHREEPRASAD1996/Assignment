@@ -1,4 +1,4 @@
-class Ass1{
+class Multiplication{
 public static void main(String args[]){
 float a=5.0f;
 float b=6.0f;
